@@ -1,0 +1,12 @@
+[project]
+authors = ["Samuel Ibarra <Samuel.E.Ibarra@dell.com>"]
+channels = ["https://conda.modular.com/max-nightly", "https://conda.modular.com/max", "https://repo.prefix.dev/modular-community", "https://repo.prefix.dev/conda-forge"]
+name = "tcanvas"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+app = "mojo termo/loop.mojo"
+
+[dependencies]
+max = ">=25.2.0.dev2025030305,<26"
